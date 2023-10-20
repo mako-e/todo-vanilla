@@ -1,8 +1,34 @@
+/* Importing the font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    min-height: 100dvh;
+}
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: wheat;
-    border-radius: 10px;
-    max-height: 520px;
+    background: rgb(72,130,235);
+    background: linear-gradient(342deg, rgba(72,130,235,1) 0%, rgba(82,201,91,1) 100%);
+    border-radius: 5px;
+    width: 85vh;
+    margin: auto;
+}
+.container h1{
+font-family: 'Poppins', sans-serif;
+color: white;
+text-transform: uppercase;
+}
+input{
+border-radius: 5px;
+margin: 0 0 20px 0;
+height: 25px;
+border-style: none;
+}
+button{
+height: 25px;
+border-radius: 5px;
+border-style: none;
+background-color: wheat;
+width: 35px;
 }
