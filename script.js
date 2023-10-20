@@ -7,7 +7,7 @@ button.onclick = function(){
     if (inputText.trim() !== ''){   
     //Creating things for the task
     var listDiv = document.createElement('div');
-    listDiv.setAttribute("id", "listDiv");
+    listDiv.setAttribute("class", "listDiv");
     var newTask = document.createElement('span');
     var checkbox = document.createElement('input');
     checkbox.setAttribute("type", "checkbox");
