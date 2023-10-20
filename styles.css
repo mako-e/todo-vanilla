@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    border-radius: 10px;
+    max-height: 520px;
+}
