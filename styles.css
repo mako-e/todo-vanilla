@@ -41,6 +41,9 @@ width: 35px;
     margin: 5px 0 5px 0;
     font-family: 'Poppins';
 }
-#listDiv input {
+.listDiv input {
     position: relative;
+}
+ul {
+    padding: 0px;
 }
